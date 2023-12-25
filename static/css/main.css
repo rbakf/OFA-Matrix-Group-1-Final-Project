@@ -1636,6 +1636,12 @@ ul {
     margin: 0 5px;
 }
 
+.post__media img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* This ensures that the image won't have extra spacing underneath */
+    width: 100%; /* This ensures that the image takes the full width of its container */
+}
 
 /* 9. service_02
 --------------------------------------------------------------------------------*/
